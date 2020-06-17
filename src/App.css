@@ -1,0 +1,87 @@
+.container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  border: 1px solid #000;
+}
+
+.headerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  min-height: 50px;
+  box-sizing: content-box;
+  border-bottom: 1px solid #000;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchBox {
+  font-size: 30px;
+  margin: 15px;
+  display: flex;
+}
+
+.nameList {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  height: 500px;
+}
+
+.nameElement {
+  padding: 15px 25px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  color: #777777;
+}
+
+.avatarDiv {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nameElement:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.inputField {
+  font-size: 25px !important;
+}
+
+.chipAvatar {
+  height: 50px;
+}
+
+.MuiChip-root {
+  height: 40px !important;
+  border-radius: 20px !important;
+  font-size: 15px !important;
+  background-color: #edfdff !important;
+}
+
+.MuiChip-root .MuiChip-avatar {
+  height: 45px !important;
+  width: 45px !important;
+  margin-left: 0 !important;
+  background-color: lightskyblue;
+  color: white !important;
+  font-size: 20px !important;
+}
+
+.loadSpinner {
+  margin: 190px auto;
+}
